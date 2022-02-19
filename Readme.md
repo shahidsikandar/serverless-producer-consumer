@@ -5,7 +5,7 @@ In the IoT, we sometimes need to keep an eye on accessible devices to see whethe
 This basic IoT project (the producer) checks RAM and CPU use every three seconds and transmits the data to two RabbitMQ message broker queues. Here, two queues are established, one for communicating RAM utilization and the other for transmitting CPU usage (As demonstrated in the picture below). The consumer then selects these statistics from the associated queue and categorizes their use as "Low," "Average," or "High" using a function.
 
 
-![alt text](C:\Users\sikandar\Desktop\serverless-producer-consumer-master\serverless-producer-consumer-master\images)
+![alt text](https://github.com/shahidsikandar/serverless-producer-consumer/blob/main/images/Presentation1.jpg)
 # Requirements
 
 - Ubuntu 20.04
