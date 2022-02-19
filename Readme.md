@@ -1,8 +1,8 @@
 # Serverless Computing Project
 
-In IoT, in some cases, we need to monitor available devices in case of resource utilization, for further use-cases.
+In the IoT, we sometimes need to keep an eye on accessible devices to see whether they're being used for other purposes.
 
-This simple IoT project (the producer) monitors RAM and CPU usage every 3 seconds and sends the related statistics to 2 different queues of the RabbitMQ message broker. Two queues are defined here, one for transmitting RAM usage and one for CPU usage (As demonstrated in the picture below). Then, the consumer picks these statistics from the corresponding queue and using a function, classifies their usage as "Low", "Average", or "High".
+This basic IoT project (the producer) checks RAM and CPU use every three seconds and transmits the data to two RabbitMQ message broker queues. Here, two queues are established, one for communicating RAM utilization and the other for transmitting CPU usage (As demonstrated in the picture below). The consumer then selects these statistics from the associated queue and categorizes their use as "Low," "Average," or "High" using a function.
 
 
 ![alt text](C:\Users\sikandar\Desktop\serverless-producer-consumer-master\serverless-producer-consumer-master\images)
